@@ -5,9 +5,11 @@ Conjunto de artefatos desenvolvidos para pesquisa de doutorado para avaliação 
 
 - Autor: Fernando Xavier
 - Orientador: Antonio Mauro Saraiva
-- Texto completo: [Link da tese](https://www.teses.usp.br/teses/disponiveis/3/3141/tde-09112023-115721/pt-br.php)
-
+- Instituição: Escola Politécnica da Universidade de São Paulo
+- Data da Defesa: 01/09/2023
+- Texto completo: <a href="https://www.teses.usp.br/teses/disponiveis/3/3141/tde-09112023-115721/pt-br.php" target="_blank">Link da tese</a>
 
 ## Dados Técnicos
 - Linguagem de programação: Python
 - Ambiente de desenvolvimento: Google Colab
+- Armazenamento: Google Drive, MySQL, PostgreSQL, BigQuery
