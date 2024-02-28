@@ -1,5 +1,5 @@
 # Metodologia baseada em ciência de dados para avaliação do programa de combate à dengue
-Conjunto de artefatos desenvolvidos para pesquisa de doutorado para avaliação do programa de combate à dengue.
+Códigos desenvolvidos durante a pesquisa de doutorado para avaliação do programa de combate à dengue.
 
 ## Informações Gerais
 
