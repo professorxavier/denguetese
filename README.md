@@ -8,6 +8,7 @@ Códigos desenvolvidos durante a pesquisa de doutorado para avaliação do progr
 - Instituição: Escola Politécnica da Universidade de São Paulo
 - Data da Defesa: 01/09/2023
 - Texto completo: <a href="https://www.teses.usp.br/teses/disponiveis/3/3141/tde-09112023-115721/pt-br.php" target="_blank">Link da tese</a>
+- Vídeo da defesa: <a href="https://www.youtube.com/watch?v=fsffpwU5sR0" target="_blank">YouTube</a>
 
 ## Dados do Estudo
 - Período: 2015 - 2019
