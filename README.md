@@ -34,3 +34,21 @@ Categoria | Fonte | Acesso |
 | Profissionais de Saúde  | DATASUS   | [CNES](https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002) |
 | Uso do Solo  | MapBiomas   | [Estatísticas](https://brasil.mapbiomas.org/estatisticas/) |
 | População Urbana  | SNIS   | [Informações e indicadores municipais consolidados](http://app4.mdr.gov.br/serieHistorica) |
+
+## Experimentos
+
+### Experimento 1
+Analiação dos componentes do modelo de Donabedian de acordo com o contexto.
+
+### Experimento 2
+Painel BI para monitoramento contínuo de indicadores baseados no modelo de Donabedian.
+
+## Arquitetura da Solução
+
+O ciclo de vida dos dados para esta pesquisa foi baseado em um processo ELT (extract-load-transform) que, no contexto de um Data Lake, inverte as etapas de carga e transformação de um tradicional processo de ETL (extract-transform-load). Assim, os dados são armazenados no seu estado original em um Data Lake e transformados de acordo com seus usos. 
+
+A coleta foi realizada de fontes de dados públicas e privadas e armazenadas em um repositório. No contexto desta pesquisa, apenas para fins experimentais, o repositório dos dados brutos foi o Google Drive. Em seguida, já na etapa de transformação, os dados foram agregados em indicadores e armazenados em um Data Warehouse, para o qual foi utilizado o ambiente Google BigQuery.
+
+Por fim, os dados foram consumidos pelos dois experimentos descritos anteriormente, com utilização de scripts Python (no Experimento 1) e da ferramenta Google Looker (para o Experimento 2). Para mais detalhes do processo, consultar a <a href="https://www.teses.usp.br/teses/disponiveis/3/3141/tde-09112023-115721/pt-br.php" target="_blank">tese</a>.
+
+![Arquitetura](imgs/data_structure_thesis.drawio.png)
