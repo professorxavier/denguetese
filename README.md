@@ -53,3 +53,16 @@ A coleta foi realizada de fontes de dados públicas e privadas e armazenadas em 
 Por fim, os dados foram consumidos pelos dois experimentos descritos anteriormente, com utilização de scripts Python (no Experimento 1) e da ferramenta Google Looker (para o Experimento 2). Para mais detalhes do processo, consultar a <a href="https://www.teses.usp.br/teses/disponiveis/3/3141/tde-09112023-115721/pt-br.php" target="_blank">tese</a>.
 
 ![Arquitetura](imgs/data_structure_thesis.drawio.png)
+
+## Preparação antes de executar
+
+### Se for usar o Google Colab
+- Suba os arquivos desejados com a mesma estrutura de pastas (caso contrário, lembre-se se ajustar referências, caso necessário)
+- Faça uma cópia do arquivo .env-template e renomeie-o como .env, indicando os valores das variáveis para o seu ambiente
+- Crie um arquivo chamado caminho_env.txt na raiz do Google Drive e aponte para o caminho do arquivo .env criado
+
+### Se não for usar o Google Colab
+- Suba os arquivos desejados com a mesma estrutura de pastas (caso contrário, lembre-se se ajustar referências, caso necessário)
+- Faça uma cópia do arquivo .env-template e renomeie-o como .env, indicando os valores das variáveis para o seu ambiente
+- Crie um arquivo chamado caminho_env.txt na raiz do projeto e aponte para o caminho do arquivo .env criado
+- Lembrar de remover as referências de conexão para o Google Drive 
