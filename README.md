@@ -35,6 +35,7 @@ Categoria | Fonte | Acesso |
 | Profissionais de Saúde  | DATASUS   | [CNES](https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002) |
 | Uso do Solo  | MapBiomas   | [Estatísticas](https://brasil.mapbiomas.org/estatisticas/) |
 | População Urbana  | SNIS   | [Informações e indicadores municipais consolidados](http://app4.mdr.gov.br/serieHistorica) |
+| Água e Esgoto  | SNIS   | [Informações e indicadores municipais consolidados](http://app4.mdr.gov.br/serieHistorica) |
 
 ## Experimentos
 
